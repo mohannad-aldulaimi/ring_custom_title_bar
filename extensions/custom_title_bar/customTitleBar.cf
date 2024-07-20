@@ -1,0 +1,26 @@
+<class>
+name:CustomTitleBar
+para:QWidget* parent,const char *
+</class>
+<code>
+#include "main.hpp"
+extern "C"{
+    #include "ring.h"
+}
+</code>
+void setLogoMovie( QMovie *movie)
+void setLogoPixmap( QPixmap &pixmap) {
+
+void setMenuBar(QMenuBar *pMenubar)
+void unsetMenuBar(void)
+
+void setTitleAlignment(Qt::Alignment alignment)
+void setMenuBarAlignment(Qt::Alignment alignment)
+void setButtonsAlignment(Qt::Alignment alignment) {
+
+QPushButton* getMinimizeButton(void)
+QPushButton* getMaximizeButton(void)
+QPushButton* getCloseButton(void)
+QMenuBar* getMenuBar(void)
+QLabel* getLogo(void)
+
