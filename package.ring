@@ -15,7 +15,7 @@ aPackageInfo = [
 	],
 	:libs = 	[
 		[
-			:name = "ringqt",
+			:name = "",
 			:version = "",
 			:providerusername = ""
 		]
@@ -33,7 +33,7 @@ aPackageInfo = [
 		"extensions/custom_title_bar/main.hpp",
 		"extensions/custom_title_bar/main_ring.cpp",
 		"libraries/custom_title_bar/custom_title_bar.ring",
-		"samples/UsingQt/custom title bar/custom_title_bar.ring"
+		"samples/UsingQt/custom_title_bar/custom_title_bar.ring"
 	],
 	:windowsfiles = 	[
 
